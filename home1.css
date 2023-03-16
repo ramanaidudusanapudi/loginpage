@@ -1,0 +1,258 @@
+*{
+    padding:0px;
+    margin: opx;
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    background-image:url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -100px;
+    position: relative;
+}
+#h1{
+    font-size: 30px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 30vh;
+    left:-300px;
+}
+#h2{
+    font-size: 55px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 35vh;
+    left: -300px;
+}
+#h3{
+    font-size: 30px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    bottom: 0vh;
+    right: 5vw;
+    font-weight: lighter;
+   
+}
+#h4{
+    font-size: 30px;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    bottom: 0vh;
+    right: 5vw;
+    font-weight: lighter;
+    
+}
+#hexagon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0vh;
+    right: 35vw;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transition: background-color 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body{
+    background-image: linear-gradient(black,rgb(246, 144, 144),rgb(246, 144, 144),black);
+    background-size: 100vw 600vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+#cars{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    z-index: -1;
+}
+#car1{
+    position: absolute;
+    top: 5vh;
+    width: 60vw;
+    height: 60vh;
+    clip-path: polygon(0% 0%, 61% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+#car1image{
+    position: relative;
+    right: 80px;
+    bottom: 20px;
+    width: 60vw;
+}
+#car1heading{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    right: 200px;
+    top: 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px black;
+    
+
+}
+#car1info{
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 5px black;
+}
+#car2{
+    position: absolute;
+    top: 70vh;
+    right: -28vh;
+    width: 70vw;
+    height: 60vh;
+    clip-path: polygon(32% 0, 100% 0%, 100% 100%, 25% 100%, 0 100%);
+}
+#car2image{
+    position: relative;
+    right: 170px;
+    bottom: 250px;
+    width: 68vw;
+    height: 100vh;
+}
+#car2heading{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px black;
+    
+}
+#car2info{
+    color: white;
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    top: 650px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 5px black;
+
+}
+
+#car3{
+    position: absolute;
+    top: 140vh;
+    width: 60vw;
+    height: 60vh;
+    clip-path: polygon(0% 0%, 68% 0, 100% 100%, 75% 100%, 0% 100%);
+}
+#car3image{
+    position: relative;
+    right: 70px;
+    bottom: 220px;
+    width: 90vw;
+}
+#car3heading{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 22vh;
+    top: 1050px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px black;
+}
+
+
+#car3info{
+    color: white;
+    width: 500px;
+    position: absolute;
+    right: 10vh;
+    top: 1150px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(11, 11, 11);
+    text-shadow: 4px 4px 5px black;
+    transition: font-size 0.2s;
+
+}
+
+#car4{
+    position: absolute;
+    top: 300vh;
+    right: 0vh;
+    width: 60vw;
+    height: 70vh;
+   clip-path: polygon(33% 0, 100% 0%, 100% 100%, 25% 100%, 0 100%);
+}
+
+#car4image{
+    position: relative;
+    left: 50px;
+    top: -20px;
+    bottom: 200px;
+    width: 70vw;
+}
+#car4heading{
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 2300px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px black;
+}
+#car4info{
+    color: white;
+    width: 500px;
+    position: absolute;
+    font-size: 20px;
+    right: 130vh;
+    top: 320vh;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 5px black;
+}
+
+
+#footer{
+    position: absolute;
+    bottom: -2200px;
+    width: 100vw;
+    height: 120px;
+    background-color:white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+i{
+    font-size: 30px;
+    padding: 30px;
+}
+#left{
+    position: absolute;
+    left: 30px;
+}
+#lefttext{
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+}
+#v{
+    color: transparent;
+    transition: color 2s;
+}
